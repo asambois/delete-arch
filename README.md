@@ -1,4 +1,4 @@
-function removeAllAttachmentsWhenArchived(notification)
+removeAllAttachmentsWhenArchived(notification)
 {
   new Notification(notification).archivedCard().removeAllAttachments();
 }
